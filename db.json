@@ -1,0 +1,483 @@
+
+     [
+      {
+        "type": "cat",
+        "name": "Whiskers",
+        "breed": "Siamese",
+        "age": 3,
+        "color": "Cream",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Luna",
+        "breed": "Maine Coon",
+        "age": 2,
+        "color": "Gray",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Shadow",
+        "breed": "Persian",
+        "age": 5,
+        "color": "Black",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Buddy",
+        "breed": "Golden Retriever",
+        "age": 4,
+        "color": "Golden",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Bella",
+        "breed": "Labrador Retriever",
+        "age": 3,
+        "color": "Yellow",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Max",
+        "breed": "Beagle",
+        "age": 6,
+        "color": "Tricolor",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Simba",
+        "breed": "Bengal",
+        "age": 1,
+        "color": "Spotted",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Nala",
+        "breed": "British Shorthair",
+        "age": 4,
+        "color": "Blue",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Milo",
+        "breed": "Ragdoll",
+        "age": 3,
+        "color": "White",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Rocky",
+        "breed": "German Shepherd",
+        "age": 5,
+        "color": "Black and Tan",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Charlie",
+        "breed": "Poodle",
+        "age": 2,
+        "color": "White",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Daisy",
+        "breed": "Bulldog",
+        "age": 4,
+        "color": "Brindle",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Oliver",
+        "breed": "Siberian",
+        "age": 2,
+        "color": "Brown Tabby",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Cleo",
+        "breed": "Sphynx",
+        "age": 1,
+        "color": "Pink",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Leo",
+        "breed": "Abyssinian",
+        "age": 3,
+        "color": "Ruddy",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Molly",
+        "breed": "Boxer",
+        "age": 3,
+        "color": "Fawn",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Lola",
+        "breed": "Shih Tzu",
+        "age": 2,
+        "color": "White and Brown",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Buster",
+        "breed": "Dachshund",
+        "age": 5,
+        "color": "Red",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Zoe",
+        "breed": "Scottish Fold",
+        "age": 4,
+        "color": "Gray",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Toby",
+        "breed": "Norwegian Forest",
+        "age": 3,
+        "color": "Brown Tabby",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Ginger",
+        "breed": "Turkish Angora",
+        "age": 2,
+        "color": "White",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Rex",
+        "breed": "Doberman",
+        "age": 4,
+        "color": "Black and Rust",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Lucy",
+        "breed": "Cocker Spaniel",
+        "age": 3,
+        "color": "Golden",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Bailey",
+        "breed": "Chihuahua",
+        "age": 2,
+        "color": "Fawn",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Mittens",
+        "breed": "Devon Rex",
+        "age": 1,
+        "color": "Cream",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Oreo",
+        "breed": "American Shorthair",
+        "age": 4,
+        "color": "Black and White",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Smokey",
+        "breed": "Russian Blue",
+        "age": 5,
+        "color": "Blue",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Maggie",
+        "breed": "Great Dane",
+        "age": 6,
+        "color": "Harlequin",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Sadie",
+        "breed": "Rottweiler",
+        "age": 3,
+        "color": "Black and Tan",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Cooper",
+        "breed": "Pomeranian",
+        "age": 4,
+        "color": "Orange",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Misty",
+        "breed": "Chartreux",
+        "age": 2,
+        "color": "Gray",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Tiger",
+        "breed": "Ocicat",
+        "age": 3,
+        "color": "Spotted",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Muffin",
+        "breed": "Cornish Rex",
+        "age": 4,
+        "color": "White",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Oscar",
+        "breed": "Border Collie",
+        "age": 3,
+        "color": "Black and White",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Lilly",
+        "breed": "Maltese",
+        "age": 2,
+        "color": "White",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Rusty",
+        "breed": "Australian Shepherd",
+        "age": 4,
+        "color": "Blue Merle",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Sam",
+        "breed": "Manx",
+        "age": 5,
+        "color": "Brown Tabby",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Socks",
+        "breed": "Himalayan",
+        "age": 3,
+        "color": "Seal Point",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Pumpkin",
+        "breed": "Exotic Shorthair",
+        "age": 2,
+        "color": "Orange",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Gizmo",
+        "breed": "Yorkshire Terrier",
+        "age": 3,
+        "color": "Black and Tan",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Moose",
+        "breed": "Saint Bernard",
+        "age": 5,
+        "color": "Brown and White",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Koda",
+        "breed": "Alaskan Malamute",
+        "age": 4,
+        "color": "Gray and White",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Tigger",
+        "breed": "Burmese",
+        "age": 2,
+        "color": "Brown",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Sasha",
+        "breed": "Tonkinese",
+        "age": 3,
+        "color": "Mink",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Mochi",
+        "breed": "Japanese Bobtail",
+        "age": 4,
+        "color": "White and Black",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Thor",
+        "breed": "Husky",
+        "age": 2,
+        "color": "Gray and White",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Tucker",
+        "breed": "Weimaraner",
+        "age": 3,
+        "color": "Gray",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Duke",
+        "breed": "Dalmatian",
+        "age": 4,
+        "color": "White and Black",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Bella",
+        "breed": "Siamese",
+        "age": 2,
+        "color": "Seal Point",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Nico",
+        "breed": "Snowshoe",
+        "age": 3,
+        "color": "Seal Point and White",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Jasper",
+        "breed": "Oriental Shorthair",
+        "age": 4,
+        "color": "Ebony",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Zara",
+        "breed": "Samoyed",
+        "age": 3,
+        "color": "White",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Finn",
+        "breed": "Cavalier King Charles Spaniel",
+        "age": 4,
+        "color": "Blenheim",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Zeus",
+        "breed": "Akita",
+        "age": 5,
+        "color": "Brindle",
+        "city": "Mohali"
+      },
+      {
+        "type": "cat",
+        "name": "Coco",
+        "breed": "Balinese",
+        "age": 3,
+        "color": "Chocolate Point",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "cat",
+        "name": "Toby",
+        "breed": "Turkish Van",
+        "age": 2,
+        "color": "White and Red",
+        "city": "Panchkula"
+      },
+      {
+        "type": "cat",
+        "name": "Sophie",
+        "breed": "LaPerm",
+        "age": 3,
+        "color": "Red",
+        "city": "Mohali"
+      },
+      {
+        "type": "dog",
+        "name": "Luna",
+        "breed": "Whippet",
+        "age": 2,
+        "color": "Brindle",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "dog",
+        "name": "Milo",
+        "breed": "Shiba Inu",
+        "age": 3,
+        "color": "Red",
+        "city": "Panchkula"
+      },
+      {
+        "type": "dog",
+        "name": "Scout",
+        "breed": "Vizsla",
+        "age": 4,
+        "color": "Rust",
+        "city": "Mohali"
+      }
+    ]
