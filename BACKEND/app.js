@@ -8,7 +8,7 @@ const cors = require('cors');
 app.use(express.json());
 app.use(cors());
 
-// entire data
+// entire data in db
 const filePath = path.join(__dirname, 'db.json');
 app.get('/pets', (req, res) => {
     fs.readFile(filePath, 'utf8', (err, data) => {
