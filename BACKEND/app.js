@@ -2,13 +2,16 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 const PORT = 3000;
-
+const path = require('path');
+const cors = require('cors');
 
 app.use(express.json());
+app.use(cors());
 
 // entire data
+const filePath = path.join(__dirname, 'db.json');
 app.get('/pets', (req, res) => {
-    fs.readFile('db.json', 'utf8', (err, data) => {
+    fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             return res.status(500).json({ error: 'Failed to read file' });
         }
@@ -19,13 +22,24 @@ app.get('/pets', (req, res) => {
 
 
 app.get('/pets/search', (req, res) => {
+    console.log('Received request:', req.query); // Logs the request query parameters
+
     const { type, breed, city } = req.query;
 
-    fs.readFile('db.json', 'utf8', (err, data) => {
+    fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
+            console.error('Error reading file:', err); // Logs error if reading file fails
             return res.status(500).json({ error: 'Failed to read file' });
         }
-        let jsonData = JSON.parse(data);
+
+        let jsonData;
+        try {
+            jsonData = JSON.parse(data);
+            console.log('Parsed JSON data:', jsonData); // Logs parsed JSON data
+        } catch (parseErr) {
+            console.error('Error parsing JSON:', parseErr); // Logs JSON parsing error
+            return res.status(500).json({ error: 'Failed to parse JSON data' });
+        }
 
         // Filter based on query parameters
         if (type) {
@@ -38,14 +52,16 @@ app.get('/pets/search', (req, res) => {
             jsonData = jsonData.filter(pet => pet.city.toLowerCase() === city.toLowerCase());
         }
         
+        console.log('Filtered results:', jsonData); // Logs filtered results
         res.json(jsonData);
     });
 });
 
+
 // app.get('/pets/search', (req, res) => {
 //     const { type, breed, city } = req.query;
 
-//     fs.readFile('db.json', 'utf8', (err, data) => {
+//     fs.readFile(filePath, 'utf8', (err, data) => {
 //         if (err) {
 //             console.error('Failed to read file:', err);
 //             return res.status(500).json({ error: 'Failed to read file' });
