@@ -17,7 +17,7 @@ function SearchAnimals() {
         if (animalType) {
             setLoading(true);
             setError(null);
-            fetch(`/api/breeds?animalType=${encodeURIComponent(animalType)}`)
+            fetch(`/api/breeds?animalType=${(animalType)}`)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Failed to fetch breeds');
@@ -35,7 +35,7 @@ function SearchAnimals() {
     const handleSearch = () => {
         setLoading(true);
         setError(null);
-        fetch(`http://localhost:3000/pets/search?city=${encodeURIComponent(city)}&type=${encodeURIComponent(animalType)}&breed=${encodeURIComponent(breed)}`)
+        fetch(`http://localhost:3000/pets/search?city=${(city)}&type=${(animalType)}&breed=${(breed)}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Failed to fetch pets');

@@ -52,7 +52,7 @@ app.get('/pets/search', (req, res) => {
             jsonData = jsonData.filter(pet => pet.city.toLowerCase() === city.toLowerCase());
         }
         
-        console.log('Filtered results:', jsonData); // Logs filtered results
+        //console.log('Filtered results:', jsonData); // Logs filtered results
         res.json(jsonData);
     });
 });
