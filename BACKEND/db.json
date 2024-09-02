@@ -479,5 +479,206 @@
         "age": 4,
         "color": "Rust",
         "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Coco",
+        "breed": "Parrotlet",
+        "age": 2,
+        "color": "Green",
+        "city": "Panchkula"
+      },
+      {
+        "type": "bird",
+        "name": "Oliver",
+        "breed": "African Grey",
+        "age": 6,
+        "color": "Grey",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "bird",
+        "name": "Sunny",
+        "breed": "Sun Conure",
+        "age": 3,
+        "color": "Yellow",
+        "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Lola",
+        "breed": "Indian Ringneck",
+        "age": 4,
+        "color": "Green",
+        "city": "Panchkula"
+      },
+      {
+        "type": "bird",
+        "name": "Chirpy",
+        "breed": "Budgerigar",
+        "age": 1,
+        "color": "Green",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "bird",
+        "name": "Bella",
+        "breed": "Cockatoo",
+        "age": 7,
+        "color": "White",
+        "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Peanut",
+        "breed": "Finch",
+        "age": 2,
+        "color": "Brown",
+        "city": "Panchkula"
+      },
+      {
+        "type": "bird",
+        "name": "Blue",
+        "breed": "Hyacinth Macaw",
+        "age": 5,
+        "color": "Blue",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "bird",
+        "name": "Mango",
+        "breed": "Lovebird",
+        "age": 3,
+        "color": "Yellow",
+        "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Snowy",
+        "breed": "Cockatiel",
+        "age": 1,
+        "color": "White",
+        "city": "Panchkula"
+      },
+      {
+        "type": "bird",
+        "name": "Pepper",
+        "breed": "Parakeet",
+        "age": 4,
+        "color": "Green",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "bird",
+        "name": "Sunny",
+        "breed": "Canary",
+        "age": 2,
+        "color": "Yellow",
+        "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Rico",
+        "breed": "Quaker Parrot",
+        "age": 3,
+        "color": "Green",
+        "city": "Panchkula"
+      },
+      {
+        "type": "bird",
+        "name": "Cleo",
+        "breed": "Senegal Parrot",
+        "age": 5,
+        "color": "Orange",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "bird",
+        "name": "Tiki",
+        "breed": "Lovebird",
+        "age": 3,
+        "color": "Peach",
+        "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Amber",
+        "breed": "Canary",
+        "age": 2,
+        "color": "Yellow",
+        "city": "Panchkula"
+      },
+      {
+        "type": "bird",
+        "name": "Buddy",
+        "breed": "Budgerigar",
+        "age": 1,
+        "color": "Blue",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "bird",
+        "name": "Zazu",
+        "breed": "Indian Ringneck",
+        "age": 4,
+        "color": "Yellow",
+        "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Piper",
+        "breed": "Cockatiel",
+        "age": 2,
+        "color": "Gray",
+        "city": "Panchkula"
+      },
+      {
+        "type": "bird",
+        "name": "Lemon",
+        "breed": "Canary",
+        "age": 3,
+        "color": "Yellow",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "bird",
+        "name": "Tweety",
+        "breed": "Budgerigar",
+        "age": 2,
+        "color": "Yellow",
+        "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Misty",
+        "breed": "Finch",
+        "age": 1,
+        "color": "Gray",
+        "city": "Panchkula"
+      },
+      {
+        "type": "bird",
+        "name": "Oscar",
+        "breed": "African Grey",
+        "age": 6,
+        "color": "Grey",
+        "city": "Chandigarh"
+      },
+      {
+        "type": "bird",
+        "name": "Charlie",
+        "breed": "Cockatoo",
+        "age": 7,
+        "color": "White",
+        "city": "Mohali"
+      },
+      {
+        "type": "bird",
+        "name": "Ruby",
+        "breed": "Parrotlet",
+        "age": 2,
+        "color": "Red",
+        "city": "Panchkula"
       }
+      
     ]
