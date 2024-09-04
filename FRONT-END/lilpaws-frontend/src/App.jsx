@@ -75,17 +75,6 @@ function SearchAnimals() {
                 </select>
             </div>
 
-            <div>
-                <label>Breed:</label>
-                <select value={breed} onChange={(e) => setBreed(e.target.value)} disabled={!animalType || loading}>
-                    <option value="">Select a breed</option>
-                    {breeds.map((breed, index) => (
-                        <option key={index} value={breed}>
-                            {breed}
-                        </option>
-                    ))}
-                </select>
-            </div>
 
             <button onClick={handleSearch} disabled={loading}>
                 {loading ? 'Searching...' : 'Search'}
@@ -100,7 +89,7 @@ function SearchAnimals() {
                     <ul>
                         {results.map((pet, index) => (
                             <li key={index}>
-                                {pet.type} - {pet.breed} - {pet.city}
+                                {pet.type} - {pet.breed} - {pet.city} - {pet.name} - {pet.age}
                             </li>
                         ))}
                     </ul>
