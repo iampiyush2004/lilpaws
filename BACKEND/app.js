@@ -7,6 +7,10 @@ const cors = require('cors');
 
 app.use(express.json());
 app.use(cors());
+const path = require('path');
+
+
+app.use('/', express.static(path.join(__dirname, 'public')));
 
 // entire data in db
 const filePath = path.join(__dirname, 'db.json');
