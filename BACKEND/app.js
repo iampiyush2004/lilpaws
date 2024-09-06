@@ -7,7 +7,7 @@ const cors = require('cors');
 
 app.use(express.json());
 app.use(cors());
-const path = require('path');
+//const path = require('path');
 
 
 app.use('/', express.static(path.join(__dirname, 'public')));
@@ -26,22 +26,22 @@ app.get('/pets', (req, res) => {
 
 
 app.get('/pets/search', (req, res) => {
-    console.log('Received request:', req.query); // Logs the request query parameters
+    console.log('Received request:', req.query);
 
     const { type, breed, city } = req.query;
 
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
-            console.error('Error reading file:', err); // Logs error if reading file fails
+            console.error('Error reading file:', err); 
             return res.status(500).json({ error: 'Failed to read file' });
         }
 
         let jsonData;
         try {
             jsonData = JSON.parse(data);
-            console.log('Parsed JSON data:', jsonData); // Logs parsed JSON data
+            console.log('Parsed JSON data:', jsonData); 
         } catch (parseErr) {
-            console.error('Error parsing JSON:', parseErr); // Logs JSON parsing error
+            console.error('Error parsing JSON:', parseErr); 
             return res.status(500).json({ error: 'Failed to parse JSON data' });
         }
 
